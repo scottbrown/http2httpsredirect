@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
 
-DOCKER_BIN := docker
+DOCKER_BIN := sudo docker
 IMAGE_NAME := http2httpsredirect
 NAMESPACE  := scottbrown
 
