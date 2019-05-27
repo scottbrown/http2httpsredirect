@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.8
 MAINTAINER Scott Brown
 
 RUN apk add --update nginx nginx-mod-http-headers-more
